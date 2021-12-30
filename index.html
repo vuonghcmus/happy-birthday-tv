@@ -15,6 +15,12 @@
   </head>
 
   <body>
+
+    <audio class="song" controls loop>
+          <source src="music/hbd.mp3"></source>
+      Trình duyệt của bạn không hỗ trợ phát nhạc
+    </audio>
+
     <div id="merrywrap" class="merrywrap">
       <div class="giftbox">
         <div class="cover">
@@ -68,7 +74,8 @@
       </div>
       <div class="six">
         <img
-          src="img/lydia2.png"
+        style="border-radius: 12px;"
+          src="img/thaovy.jpg"
           alt=""
           class="lydia-dp"
           data-node-name="imagePath"
@@ -151,9 +158,11 @@
         <p data-node-name="outroText">
           Okay, now come back and tell me if you liked it.
         </p>
-        <p id="replay" data-node-name="replayText">
-          Or click, if you want to watch it again.
-        </p>
+        <u style="cursor: pointer;">
+          <p id="replay" data-node-name="replayText">
+            Or click, if you want to watch it again.
+          </p>
+        </u>
         <p class="last-smile" data-node-name="outroSmiley">:)</p>
       </div>
     </div>

@@ -305,6 +305,8 @@ const animationTimeline = () => {
 
 $(".giftbox").click(function () {
   setTimeout(() => {
+    var audio = $(".song")[0];
+    audio.play();
     $("#merrywrap").css("background-color", "#fff");
     fetchData();
   }, 2500);
